@@ -1,0 +1,43 @@
+.posts-container {
+  border: 1px solid rgb(175, 79, 79);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60%;
+}
+
+.posts-header {
+  border: 1px solid rgb(175, 79, 79);
+}
+
+.post-item-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-rating {
+  font-size: 28px;
+}
+
+.post-title {
+  font-size: 22px;
+}
+
+.post-coffee {
+  font-weight: 600;
+}
+
+.post-text {
+  padding: 0px 10px 0px 20px;
+}
+  
+  
+  
+  
+  
+  

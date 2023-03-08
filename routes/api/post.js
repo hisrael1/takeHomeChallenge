@@ -1,8 +1,6 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/test", (req, res) => res.json({ msg: "This is the posts route" }));
-
 // index
 // make sure asc by post date
 router.get('', (req, res) => {
