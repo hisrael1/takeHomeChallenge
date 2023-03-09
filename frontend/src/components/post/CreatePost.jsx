@@ -23,8 +23,8 @@ class CreatePost extends React.Component {
         this.setState({
             [name]: currentValue
         })
-        console.log(currentValue);
-        console.log(name);
+        // console.log(currentValue);
+        // console.log(name);
     }
 
     handleSubmit(e) {

@@ -1,5 +1,4 @@
 .posts-container {
-  border: 1px solid rgb(175, 79, 79);
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -9,14 +8,15 @@
 .posts-header {
   display: flex;
   justify-content: row;
-  border: 1px solid rgb(175, 79, 79);
+  padding: 20px;
+  border-bottom: 1px solid rgb(175, 79, 79);
 }
 
 .post-item-container {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 16px;
-  border: 1px solid red;
+  border-bottom: yellow dotted;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,28 +47,56 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: 20%;
-  width: 400px;
-  height: 400px;
+  top: 10%;
+  width: 320px;
   border: 1px solid rgb(152, 152, 152);
   border-radius: 10px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 }
 
-.create-post-input {
-  padding-left: 25px;  
-  margin-left: 25px;  
-  outline: none;
+.create-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .create-post-field-container {
-  border-bottom: 1px solid black;
-  margin: 5px;
-  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
 }
+
+.create-post-input {
+  flex: 1 1 auto;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+
+
+
   
   
   
